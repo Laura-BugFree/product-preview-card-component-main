@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github solution](https://github.com/Laura-BugFree/product-preview-card-component-main.git)
+- Live Site URL: [Live Site]( https://laura-bugfree.github.io/product-preview-card-component-main/)
 
 ## My process
 

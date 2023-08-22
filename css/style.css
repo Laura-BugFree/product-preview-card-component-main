@@ -10,14 +10,12 @@ body {
    font-family: 'Montserrat', sans-serif;
    font-size: 0.875rem;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    min-height: 100vh;   
 }
 
-/* ============
-    Typography 
-    ===========*/
 .card-title,
 .price-lrg {
     font-family: 'Fraunces', serif;
@@ -55,10 +53,6 @@ body {
     text-decoration: line-through;
 }
 
-
-/* ============
-    Layout 
-    ===========*/
 .card {
     background-color: hsl(0, 0%, 100%);
     display: flex;
@@ -67,7 +61,7 @@ body {
     max-width: 625px;
     border-radius: 10px;
     box-shadow: 0 0 10px 2px hsla(212, 21%, 14%, .1);
-    margin: 0 auto;
+    margin: 2em auto;
 }
 
 .card-content {
@@ -81,7 +75,6 @@ body {
     align-items: center;
     margin-bottom: 1.5em;
 }
-
 
 .btn {
     background-color: hsl(158, 36%, 37%);
@@ -116,6 +109,15 @@ body {
     display: block;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+
 @media (min-width: 675px) {
     .card {
         flex-direction: row;
@@ -134,12 +136,3 @@ body {
 
 
 
-
-
-
-
-
-
-
-/* .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
