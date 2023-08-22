@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: hsl(30, 38%, 92%);
+   color: hsl(0, 0%, 45%);
+   font-family: 'Montserrat', sans-serif;
+   font-size: 0.875rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;   
+}
+
+/* ============
+    Typography 
+    ===========*/
+.card-title,
+.price-lrg {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+
+.card-title,
+.card-info {
+    margin-bottom: .5em;
+}
+
+.card-title {
+    color: hsl(0, 0%, 15%);
+    
+}
+
+.card-info {
+    font-size: .75rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    order: -2;    
+}
+
+.card-body {
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+.price-lrg {
+    color: hsl(158, 36%, 37%);
+    margin-right: .5em;
+}
+
+.price-sml {
+    text-decoration: line-through;
+}
+
+
+/* ============
+    Layout 
+    ===========*/
+.card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 625px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px hsla(212, 21%, 14%, .1);
+    margin: 0 auto;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.65em;
+}
+
+.card-pricing {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    color: hsla(0, 0%, 100%, .9);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: .95rem;
+    border: 0;
+    border-radius: 10px;
+    padding: 1em;    
+    transition: background-color .5s;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: hsl(158, 36%, 20%);
+}
+
+.btn-svg {
+    margin-right: .5em;
+    opacity: .95;
+}
+
+.card-pictures {
+    order: -1;   
+}
+
+.card-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+}
+
+@media (min-width: 675px) {
+    .card {
+        flex-direction: row;
+    }
+
+    .card-content {
+        max-width: 50%;
+        justify-content: space-evenly;        
+    }
+
+    .card-img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
