@@ -109,15 +109,6 @@ body {
     display: block;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center; 
-}
-.attribution a {
-    color: hsl(158, 36%, 37%);
-    font-weight: 700;
-}
-
 @media (min-width: 675px) {
     .card {
         flex-direction: row;
@@ -134,5 +125,12 @@ body {
     }
 }
 
-
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
 
